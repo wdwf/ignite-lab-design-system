@@ -14,12 +14,12 @@ module.exports = {
   },
   "features": {
     "storyStoreV7": true
-  },
-  viteFinal: (config, { configtype }) => {
-    if (configType === 'PRODUCTION') {
-      config.base = '/ignite-lab-design-system/'
-    }
-
-    return config
   }
+  // viteFinal: (config, { configtype }) => {
+  //   if (configType === 'PRODUCTION') {
+  //     config.base = '/ignite-lab-design-system/'
+  //   }
+
+  //   return config
+  // }
 }
